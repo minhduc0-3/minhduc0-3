@@ -1,0 +1,334 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+.wapper{
+    width:100%;
+    height: auto;
+    margin: auto;
+  }
+.haeder_1{ 
+    display: flex;
+    width: 1460px;
+    position: relative;
+}
+.logo img{
+    width: 350px;
+    height: 180px;
+}
+.lienhe p{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(220, 20, 20);
+}
+.lienhe, .timkiem, .giohang{
+    padding: 50px 30px 10px 20px;
+}
+.search{
+    position: relative;
+  }
+.search input{
+    width: 500px;
+    height:40px;
+    padding-left: 30px;
+    outline: none;
+    color: rgb(62, 62, 62);
+    font-style: italic;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #b1b1b1;
+}
+.search button{
+    position:absolute;top: 10px;left: 5px;
+    border: none;
+    background: none;
+    color: black; 
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+.giohang{
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+  }
+  .giohang:hover .giohang-cart_list{
+  display: block;
+  }
+  .giohang-cart_list::after{
+  content: "";
+  position: absolute;
+  right: 32px;
+  top: -30px;
+  border-width: 16px 20px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+  }
+  .giohang-cart_list{
+  top: 50%;
+  position: absolute;
+  right: 20px;
+  background-color: #ffffff;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+  display: none;
+  animation: fadeIn ease-in 0.2s;
+  }
+  .giohang-cart_list-img{
+  width: 55%;
+  }
+  .giohang-cart_list-nocart{
+  padding: 24px 0;
+  }
+  .giohang-cart_list-span{
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #585555;
+  }
+  .giohang i{
+  color: rgb(220, 20, 20);
+  font-size: 20px;
+  cursor: pointer;
+  }
+  .giohang a{
+  color: rgb(220, 20, 20);
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 14px;
+  }
+  .giohang i:hover, .giohang a:hover{
+  color: rgb(255, 173, 20);
+  }
+.dk-dn{
+  position: absolute;
+  bottom: 0;right: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+}
+.dk-dn a{
+  color: rgb(220, 20, 20);
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  padding:0px 10px;
+}
+.dk-dn a:hover{
+  color: rgb(254, 191, 74);
+}
+.liner::before{
+  content: '';
+  position: absolute;bottom: 0;right: 0;
+  width: 1px;height: 15px;
+  background: #000;
+  transform: skew(-25deg);
+}
+.header_2{
+    background-color: rgb(158, 19, 19);
+    width: 100%;
+  }
+  .header_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header_2 a{
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .header_2 i{
+    font-size: 18px;
+    margin-right: 10px;
+    color: white;
+  }
+  .header_2 li{
+    padding: 10px 20px;
+  }
+  .header_2 li:hover{
+    background-color: orange;
+    color: black;
+  }
+  .content_top{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    padding-left: 250px;
+    padding-top: 20px;
+    display: flex;
+}
+.content_top a{
+    color: black;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+.text-content{
+    position: relative;
+    padding-right: 15px;
+}
+.text-content::before{
+    content: '';
+    position: absolute;top: 0;right: 0;
+    width: 1px;height:16px;
+    background-color: #000;
+    transform: skew(-25deg);
+}
+.content_top a:hover{
+    color: rgb(255, 173, 20);
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+  }
+.content1{
+    width: 100%;height: 450px;
+    border: 1px solid #b1b1b1;
+    margin: 20px 0px;
+}
+.div-title{
+    background-color: rgb(158, 19, 19);
+    padding: 10px;
+    color: rgb(242, 239, 62);
+    height: 45px;
+}
+.ct-lh{
+    display: flex;
+}
+.ct-lh1{
+    display: block;
+    width: 40%;
+}
+.ct-lh1 h4{
+    text-transform: uppercase;
+    padding: 10px;
+}
+.div1{
+    display: flex;
+    font-size: 14px;
+    padding: 10px;
+}
+.div1 span{
+    font-weight: bold;
+}
+.div1 p, .div1 a{
+    color: black;
+    padding-left: 5px;
+}
+.div1 a:hover{
+    color: rgb(255, 173, 20);
+}
+.ct-lh2{
+    width: 60%;
+    padding-left: 60px;
+    display: flex;
+}
+.div2{
+    width: 200px;
+    display: block;
+}
+.ct-sp{
+    display: flex;
+}
+.ct-sp p{
+    color: red;
+    padding-left: 5px;
+}
+.div2 div{
+    margin-top: 20px;
+}
+.div2 span{
+    font-size: 14px;
+}
+.div3 input{
+    width: 330px;
+    padding: 6px;
+    margin-top: 10px;
+    display: block;
+    border: 1px solid #b1b1b1;
+}
+.div3 textarea{
+    width: 330px;
+    padding: 6px;
+    margin-top: 10px;
+    display: block;
+    border: 1px solid #b1b1b1;
+    height: 130px;
+}
+.send{
+    position: relative;
+}
+.send input{
+    width: 120px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 173, 20);
+    border: none;
+}
+.send i{
+    position: absolute;top:0;
+    padding-left: 14px;
+    padding-top: 9px;
+    color: white;
+}
+.send input:hover{
+    background-color: #050a3f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    background-color: rgb(158, 19, 19);
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+  }
+  .footer_lh, .footer_ic{
+    display: flex;
+  }
+  .footer_ct{
+    display: block;
+    margin: 20px 40px;
+  }
+  .footer_ct h4{
+    color: rgb(255, 173, 20);
+    text-transform: uppercase;
+  }
+  .footer_ct a, .footer_ct p, .footer_ct i{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+  }
+  .footer_ct li{
+    padding: 10px 0px;
+  }
+  .footer_lh i{
+    width: 25px; height: 25px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 50px;
+    padding-top: 5px ;
+    margin: -5px 10px 0px 0px;
+  }
+  .footer_ct a:hover{
+    color: rgb(254, 191, 74);
+  }
+  .soure{
+    width: 100%;height: 50px;
+    background-color: rgb(158, 19, 19);
+    border-top: 1px solid gray;
+  }
+  .soure P {
+    color: rgb(247, 241, 241);
+    float: right;
+    font-size: 12px;
+    padding: 20px 100px 20px 0;
+  }
